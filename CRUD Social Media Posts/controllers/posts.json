@@ -1,0 +1,192 @@
+[
+    {
+        "id": "0",
+        "createdAt": "2024-01-28T12:00:00Z",
+        "imageUrl": "https://example.com/image1.jpg",
+        "likesCount": 25,
+        "comments": [
+            {
+                "userId": "user1",
+                "comment": "Awesome!",
+                "createdAt": "2024-01-28T12:05:00Z"
+            },
+            {
+                "userId": "user2",
+                "comment": "Great shot!",
+                "createdAt": "2024-01-28T12:10:00Z"
+            }
+        ],
+        "caption": "Enjoying the view from the top! 🏞️ #NatureLove"
+    },
+    {
+        "id": "1",
+        "createdAt": "2024-01-28T12:30:00Z",
+        "imageUrl": "https://example.com/image2.jpg",
+        "likesCount": 18,
+        "comments": [
+            {
+                "userId": "user3",
+                "comment": "So cute!",
+                "createdAt": "2024-01-28T12:35:00Z"
+            },
+            {
+                "userId": "user4",
+                "comment": "Adorable!",
+                "createdAt": "2024-01-28T12:40:00Z"
+            }
+        ],
+        "caption": "Meet my new furry friend! 🐾 #PetLove"
+    },
+    {
+        "id": "2",
+        "createdAt": "2024-01-28T13:00:00Z",
+        "imageUrl": "https://example.com/image3.jpg",
+        "likesCount": 30,
+        "comments": [
+            {
+                "userId": "user5",
+                "comment": "Incredible!",
+                "createdAt": "2024-01-28T13:05:00Z"
+            },
+            {
+                "userId": "user6",
+                "comment": "Speechless!",
+                "createdAt": "2024-01-28T13:10:00Z"
+            }
+        ],
+        "caption": "Sunset vibes at the beach! 🌅 #SunsetMagic"
+    },
+    {
+        "id": "3",
+        "createdAt": "2024-01-28T13:30:00Z",
+        "imageUrl": "https://example.com/image4.jpg",
+        "likesCount": 22,
+        "comments": [
+            {
+                "userId": "user7",
+                "comment": "Looks delicious!",
+                "createdAt": "2024-01-28T13:35:00Z"
+            },
+            {
+                "userId": "user8",
+                "comment": "Yum! Recipe please?",
+                "createdAt": "2024-01-28T13:40:00Z"
+            }
+        ],
+        "caption": "Homemade brunch delights! 🍳 #FoodieLife"
+    },
+    {
+        "id": "4",
+        "createdAt": "2024-01-28T14:00:00Z",
+        "imageUrl": "https://example.com/image5.jpg",
+        "likesCount": 15,
+        "comments": [
+            {
+                "userId": "user9",
+                "comment": "Stunning colors!",
+                "createdAt": "2024-01-28T14:05:00Z"
+            },
+            {
+                "userId": "user10",
+                "comment": "Mesmerizing!",
+                "createdAt": "2024-01-28T14:10:00Z"
+            }
+        ],
+        "caption": "Exploring the cityscape! 🏙️ #UrbanAdventures"
+    },
+    {
+        "id": "5",
+        "createdAt": "2024-01-28T14:30:00Z",
+        "imageUrl": "https://example.com/image6.jpg",
+        "likesCount": 28,
+        "comments": [
+            {
+                "userId": "user11",
+                "comment": "Love your style!",
+                "createdAt": "2024-01-28T14:35:00Z"
+            },
+            {
+                "userId": "user12",
+                "comment": "Fashion goals!",
+                "createdAt": "2024-01-28T14:40:00Z"
+            }
+        ],
+        "caption": "Saturday fashion vibes! 👗 #Fashionista"
+    },
+    {
+        "id": "6",
+        "createdAt": "2024-01-28T15:00:00Z",
+        "imageUrl": "https://example.com/image7.jpg",
+        "likesCount": 20,
+        "comments": [
+            {
+                "userId": "user13",
+                "comment": "Adventurous spirit!",
+                "createdAt": "2024-01-28T15:05:00Z"
+            },
+            {
+                "userId": "user14",
+                "comment": "Wanderlust goals!",
+                "createdAt": "2024-01-28T15:10:00Z"
+            }
+        ],
+        "caption": "Hiking to new heights! ⛰️ #AdventureTime"
+    },
+    {
+        "id": "7",
+        "createdAt": "2024-01-28T15:30:00Z",
+        "imageUrl": "https://example.com/image8.jpg",
+        "likesCount": 32,
+        "comments": [
+            {
+                "userId": "user15",
+                "comment": "Cute overload!",
+                "createdAt": "2024-01-28T15:35:00Z"
+            },
+            {
+                "userId": "user16",
+                "comment": "Precious moments!",
+                "createdAt": "2024-01-28T15:40:00Z"
+            }
+        ],
+        "caption": "Playtime with my furry friend! 🐶 #PetLove"
+    },
+    {
+        "id": "8",
+        "createdAt": "2024-01-28T16:00:00Z",
+        "imageUrl": "https://example.com/image9.jpg",
+        "likesCount": 26,
+        "comments": [
+            {
+                "userId": "user17",
+                "comment": "Refreshing!",
+                "createdAt": "2024-01-28T16:05:00Z"
+            },
+            {
+                "userId": "user18",
+                "comment": "Need this view!",
+                "createdAt": "2024-01-28T16:10:00Z"
+            }
+        ],
+        "caption": "Relaxing by the lake! 🚣‍♂️ #NatureEscape"
+    },
+    {
+        "id": "9",
+        "createdAt": "2024-01-28T16:30:00Z",
+        "imageUrl": "https://example.com/image10.jpg",
+        "likesCount": 19,
+        "comments": [
+            {
+                "userId": "user19",
+                "comment": "Magical atmosphere!",
+                "createdAt": "2024-01-28T16:35:00Z"
+            },
+            {
+                "userId": "user20",
+                "comment": "Enchanting! ✨",
+                "createdAt": "2024-01-28T16:40:00Z"
+            }
+        ],
+        "caption": "Evening vibes in the garden! 🌺 #SereneMoments"
+    }
+]
