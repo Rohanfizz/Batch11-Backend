@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fetch API Example</title>
+    </head>
+    <body>
+        <h1>Data is : <span id="dataTag"></span></h1>
+    </body>
+    <script>
+        // Define the fetch function
+        async function fetchData(url) {
+            try {
+                const response = await fetch(url);
+                console.log("asdasd");
+
+                // Check if the request was successful (status code 200-299)
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                // Parse the response JSON, assuming the response is in JSON format
+                const data = await response.json();
+
+                let spanTag = document.querySelector("#dataTag");
+                spanTag.innerHTML(data);
+            } catch (error) {
+                // Handle any errors that occurred during the fetch
+                console.error("Fetch error:", error);
+            }
+        }
+
+        // Example usage
+        const apiUrl = "localhost:8080/blogPost";
+        fetchData(apiUrl);
+    </script>
+</html>
