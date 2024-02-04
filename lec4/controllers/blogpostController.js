@@ -47,9 +47,9 @@ exports.blogpostBulkUpdateController = async (req, res) => {
 
     let updatedBlogposts = [];
 
-    for (let id in ids) {
+    for (let id of ids) {
         const blogPost = await BlogPost.findByIdAndUpdate(
-            { _id: id },
+            id,
             req.body[id]
         );
 
