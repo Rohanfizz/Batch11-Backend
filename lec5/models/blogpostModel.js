@@ -8,7 +8,6 @@ const blogPostSchema = new mongoose.Schema({
     image: {
         type: String,
         required: [true, "Please provide an image link."],
-        unique: true,
     },
     description: {
         type: String,
