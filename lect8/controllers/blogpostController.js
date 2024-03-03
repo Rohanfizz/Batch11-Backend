@@ -1,13 +1,21 @@
 const BlogPost = require("../models/blogPostModel");
+const ApiFeatures = require("../utils/ApiFeatures");
 const AppError = require("../utils/AppError");
 const catchAsync = require("../utils/catchAsync");
 const { NOT_FOUND, OK, CREATED } = require("../utils/statusCodes");
 
 exports.blogpostGetController = catchAsync(async (req, res, next) => {
-    const query = req.query;
-    const allBlogPosts = await BlogPost.find(query);
+    let features = new ApiFeatures(BlogPost, req.query)
+        .filter()
+        .sort()
+        .fieldlimiting();
+    features = await features.pagination();
+
+    const allBlogPosts = await features.mongooseQuery;
+    console.log(features.model);
     return res.status(OK).json({
         status: "success",
+        count: allBlogPosts.length,
         data: allBlogPosts,
     });
 });

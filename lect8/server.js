@@ -20,3 +20,4 @@ const DBlink = process.env.DB.replace("<password>", process.env.DB_PASSWORD);
 mongoose.connect(DBlink).then(() => {
     console.log("Connection to DB established ♥");
 });
+
